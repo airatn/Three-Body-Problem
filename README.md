@@ -12,8 +12,11 @@ Here $q_i = (x_i, y_i, z_i)$ – point position vector, $m_i$ – mass of each p
 For simplicity of presentation, consider the model when $z_i = 0, \dot z_i = 0, i = 1, 2, 3$. That is, the movement of all three bodies occurs in the same $XY$ plane. The system is then reduced to six differential equations. Let us show all the stages of creating a three-body problem model based on the proposed architecture.
 
 1. Initially, we will form phase spaces from 22 components. This is a parametric space of 18 components $x_1, \dot x_1, \ddot x_1, . . . , y_3, \dot y_3, \ddot y_3$, and also 4 constants $m_1,m_2,m_3, G$. In the model, each of these parameters will correspond to a parallel fiber and a granule cell, either repeating the values of the input parameter, or additionally accumulating a value, that is, acting as an integrator. We illustrate this in Figure 1.
-
 <img src="https://drive.google.com/uc?export=view&id=1P0crGaDgknBNXIXbSnQdwR2Dlee3H7kB" width="600">
+
+2. The next step is to define the function of the Golgi cell that is universal for the model,
+
+$$ g(a,b,c,d) = G\cdot s\frac{c-a}{(\sqrt{(c-a)^2+(d-b)^2)^3}} $$
 
 <img src="https://drive.google.com/uc?export=view&id=1ctIOQH2_dxw8K8pySYui6veXVqlaDepl" width="700">
 
