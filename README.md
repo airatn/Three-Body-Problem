@@ -33,11 +33,12 @@ $$ \begin{cases}
 \end{cases} $$
 
 3. Next, we construct a calculating scheme for coordinates and their derivatives corresponding to the first equation in the expression:
-\begin{cases}
+
+$$\begin{cases}
   \ddot x_{1,i+1} = g(...,x_{1,i},...)+g(...,x_{1,i},...) \Leftrightarrow (\equiv )\\
   \dot x_{1,i+1} = \dot x_{1,i} +  \ddot x_{1,i} \Leftrightarrow (\int)\\
   x_{1,i+1} = x_{1,i} +  \dot x_{1,i} \Leftrightarrow (\int)
-\end{cases}
+\end{cases}$$
 
 The system of equations is similar to the previously considered model of harmonic oscillations. The only difference is in the function of the Golgi cell responsible for calculating the acceleration. One of the six cascades of the model that provides the calculation of these equations for one coordinate is shown in Figure.
 
