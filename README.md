@@ -16,7 +16,22 @@ For simplicity of presentation, consider the model when $z_i = 0, \dot z_i = 0, 
 
 2. The next step is to define the function of the Golgi cell that is universal for the model,
 
-$$ g(a,b,c,d) = G\cdot s\frac{c-a}{(\sqrt{(c-a)^2+(d-b)^2)^3}} $$
+$$ g(a,b,c,d) = G\cdot s\frac{c-a}{(\sqrt{(c-a)^2+(d-b)^2)}^3} $$
+
+The space of values of this function corresponds in shape to the diagram presented later in Figure 2. 
+<img src="https://drive.google.com/uc?export=view&id=1n9HeLqjgR1SyWIi0gtjgc0cJiNDcz-Ye" width="600">
+In the case of introducing this function, the system of differential equations takes the form:
+
+$$ \begin{cases}
+  \ddot x_1 = g(m_2,x_1,x_2,y_1,y_2)+g(m_3,x_1,x_3,y_1,y_3)\\
+  \ddot y_1 = g(m_2,y_1,y_2,x_1,x_2)+g(m_3,y_1,y_3,x_1,x_3)\\
+  \ddot x_2 = g(m_1,x_2,x_1,y_2,y_1)+g(m_3,x_2,x_3,y_2,y_3)\\
+  \ddot y_2 = g(m_1,y_2,y_1,x_2,x_1)+g(m_3,y_2,y_3,x_2,x_3)\\
+  \ddot x_3 = g(m_1,x_3,x_1,y_3,y_1)+g(m_2,x_3,x_2,y_3,y_2)\\
+  \ddot y_3 = g(m_1,y_3,y_1,x_3,x_1)+g(m_2,y_3,y_2,x_3,x_2)\\
+\end{cases} $$
+
+
 
 <img src="https://drive.google.com/uc?export=view&id=1ctIOQH2_dxw8K8pySYui6veXVqlaDepl" width="700">
 
