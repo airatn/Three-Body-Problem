@@ -56,5 +56,7 @@ The program executable code is presented. The developed architecture allows the 
 results.
 
 [1] J. Barrow-Green,Poincare and the Three Body Problem. (American Math. Soc., Providence, R.I., 1997).
+
 [2] https://pyglet.readthedocs.io/en/latest/ . Accessed 2022.
+
 [3] A. Chenciner and R. Montgomery, “A Remarkable Periodic Solution of the Three-Body Problem in the Case of Equal Masses,”arxiv.org (2000), https://doi.org/10.48550/arXiv.math/0011268, https://arxiv.org/abs/math/0011268
